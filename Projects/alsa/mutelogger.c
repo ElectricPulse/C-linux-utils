@@ -11,7 +11,7 @@
 int main(int argc, char **argv) {
 	struct input_event ev;
 	
-	int fd = open("/dev/input/event4", O_RDONLY);
+	int fd = open("/dev/input/event8", O_RDONLY);
 	
 	if(fd == -1){
 		printf("Insufficient priviliges\n");

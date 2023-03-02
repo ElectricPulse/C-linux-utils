@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
 	FILE *fp;
 	fp  = fopen ("/data.log", "w");
 	
-	int fd = open("/dev/input/event4", O_RDONLY);
+	int fd = open("/dev/input/event8", O_RDONLY);
 	bool twice = false;
 	while (1){
 		read(fd, &ev, sizeof(ev));

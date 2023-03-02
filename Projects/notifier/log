@@ -1,0 +1,45 @@
+method call time=1674907740.091329 sender=:1.23 -> destination=org.freedesktop.DBus serial=683 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='signal',sender='org.freedesktop.Notifications',interface='org.freedesktop.DBus.Properties',member='PropertiesChanged',path='/org/freedesktop/Notifications',arg0='org.freedesktop.Notifications'"
+method return time=1674907740.091381 sender=org.freedesktop.DBus -> destination=:1.23 serial=632 reply_serial=683
+method call time=1674907740.091388 sender=:1.23 -> destination=org.freedesktop.DBus serial=684 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='signal',sender='org.freedesktop.Notifications',interface='org.freedesktop.Notifications',path='/org/freedesktop/Notifications'"
+method return time=1674907740.091396 sender=org.freedesktop.DBus -> destination=:1.23 serial=633 reply_serial=684
+method call time=1674907740.091436 sender=:1.23 -> destination=org.freedesktop.DBus serial=685 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='signal',sender='org.freedesktop.DBus',interface='org.freedesktop.DBus',member='NameOwnerChanged',path='/org/freedesktop/DBus',arg0='org.freedesktop.Notifications'"
+method return time=1674907740.091448 sender=org.freedesktop.DBus -> destination=:1.23 serial=634 reply_serial=685
+method call time=1674907740.091454 sender=:1.23 -> destination=org.freedesktop.DBus serial=686 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=StartServiceByName
+   string "org.freedesktop.Notifications"
+   uint32 0
+method return time=1674907740.091474 sender=org.freedesktop.DBus -> destination=:1.23 serial=635 reply_serial=686
+   uint32 2
+method call time=1674907740.091591 sender=:1.23 -> destination=org.freedesktop.DBus serial=687 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=GetNameOwner
+   string "org.freedesktop.Notifications"
+method return time=1674907740.091602 sender=org.freedesktop.DBus -> destination=:1.23 serial=636 reply_serial=687
+   string ":1.25"
+method call time=1674907740.091745 sender=:1.23 -> destination=:1.25 serial=688 path=/org/freedesktop/Notifications; interface=org.freedesktop.DBus.Properties; member=GetAll
+   string "org.freedesktop.Notifications"
+method return time=1674907740.091904 sender=:1.25 -> destination=:1.23 serial=65 reply_serial=688
+   array [
+   ]
+method call time=1674907740.092165 sender=:1.23 -> destination=:1.25 serial=689 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify
+   string "a"
+   uint32 0
+   string "body"
+   string "icon"
+   string "a"
+   array [
+   ]
+   array [
+   ]
+   int32 0
+method return time=1674907740.092394 sender=:1.25 -> destination=:1.23 serial=66 reply_serial=689
+   uint32 9
+method call time=1674907740.093015 sender=:1.23 -> destination=org.freedesktop.DBus serial=690 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=RemoveMatch
+   string "type='signal',sender='org.freedesktop.DBus',interface='org.freedesktop.DBus',member='NameOwnerChanged',path='/org/freedesktop/DBus',arg0='org.freedesktop.Notifications'"
+method return time=1674907740.093043 sender=org.freedesktop.DBus -> destination=:1.23 serial=637 reply_serial=690
+method call time=1674907740.093046 sender=:1.23 -> destination=org.freedesktop.DBus serial=691 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=RemoveMatch
+   string "type='signal',sender='org.freedesktop.Notifications',interface='org.freedesktop.DBus.Properties',member='PropertiesChanged',path='/org/freedesktop/Notifications',arg0='org.freedesktop.Notifications'"
+method return time=1674907740.093051 sender=org.freedesktop.DBus -> destination=:1.23 serial=638 reply_serial=691
+method call time=1674907740.093053 sender=:1.23 -> destination=org.freedesktop.DBus serial=692 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=RemoveMatch
+   string "type='signal',sender='org.freedesktop.Notifications',interface='org.freedesktop.Notifications',path='/org/freedesktop/Notifications'"
+method return time=1674907740.093058 sender=org.freedesktop.DBus -> destination=:1.23 serial=639 reply_serial=692

@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 	FILE *fp;
 	fp  = fopen ("/data.log", "w");
 	
-	int fd = open("/dev/input/event4", O_RDONLY);
+	int fd = open("/dev/input/event8", O_RDONLY);
 	
 	if(fd == -1){
 		printf("Insufficient priviliges\n");

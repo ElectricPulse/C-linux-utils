@@ -1,2 +1,2 @@
 1:
-	gcc -lasound -o main main.c mutelogger.c
+	gcc -g -lasound -o main main.c mutelogger.c
